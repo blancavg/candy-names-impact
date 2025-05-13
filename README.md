@@ -51,7 +51,7 @@ candy-names-impact/
 
 ```mermaid
 graph TD
-    A[Raw Data\nINE & Montevideo CSVs] --> B[Clean & Aggregate\nby Decade]
+    A[Raw Data<br/>INE & Montevideo CSVs] --> B[Clean & Aggregate\nby Decade]
     B --> C[Absolute Frequency<br/>Spain & Uruguay]
     C --> D[Relative Frequency<br/>Within Each Country]
     D --> E[Visualizations<br/>Seaborn]
