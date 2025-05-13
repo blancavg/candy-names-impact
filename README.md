@@ -54,7 +54,7 @@ graph TD
     A[Raw Data\nINE & Montevideo CSVs] --> B[Clean & Aggregate\nby Decade]
     B --> C[Absolute Frequency\nSpain & Uruguay]
     C --> D[Relative Frequency\nWithin Each Country]
-    D --> E[Visualizations\n(Seaborn)]
+    D --> E[Visualizations\nSeaborn]
     E --> F[Chi-squared Test\nSusana vs Patricia]
     F --> G[Markdown Tables\nfor Docs & Blog]
     G --> H[Outputs:\nBlog Infographic & GitHub Repo]
