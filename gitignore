@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Python virtual environments
+venv/
+.env/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Logs and system files
+*.log
+
+# Notebook execution artifacts
+*.out
+*.pdf
+*.svg
+*.png
+*.jpg
+
+# Hidden files or outputs
+*.bak
+*.tmp
+
+# Personal commit templates (optional)
+.commit-template
+
+# Output directories
+outputs/
