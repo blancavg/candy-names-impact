@@ -52,12 +52,12 @@ candy-names-impact/
 ```mermaid
 graph TD
     A[Raw Data\nINE & Montevideo CSVs] --> B[Clean & Aggregate\nby Decade]
-    B --> C[Absolute Frequency\nSpain & Uruguay]
-    C --> D[Relative Frequency\nWithin Each Country]
-    D --> E[Visualizations\nSeaborn]
-    E --> F[Chi-squared Test\nSusana vs Patricia]
-    F --> G[Markdown Tables\nfor Docs & Blog]
-    G --> H[Outputs:\nBlog Infographic & GitHub Repo]
+    B --> C[Absolute Frequency<br/>Spain & Uruguay]
+    C --> D[Relative Frequency<br/>Within Each Country]
+    D --> E[Visualizations<br/>Seaborn]
+    E --> F[Chi-squared Test<br/>Susana vs Patricia]
+    F --> G[Markdown Tables<br/>for Docs & Blog]
+    G --> H[Outputs:<br/>Blog Infographic & GitHub Repo]
 ```
 
 ## 🙋 Author
