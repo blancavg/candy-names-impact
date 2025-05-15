@@ -1,25 +1,34 @@
-
 import pandas as pd
-import os
+from pathlib import Path
 
-# Nombres a procesar
-nombres = ["susana", "ana", "patricia", "maria"]
-ruta_base = "../data/raw/"
-salida = []
+# Nombres a procesar y columnas de interés
+nombres = ["susana", "maria", "ana", "patricia"]
+decadas = ["70s", "80s", "90s", "2000s", "2010s", "2020s"]
+ruta_base = "../data/processed/"
+
+# DataFrame base con columna 'decada'
+df_final = pd.DataFrame({
+    "Década": ["1970", "1980", "1990", "2000", "2010", "2020"]
+})
 
 for nombre in nombres:
-    path = os.path.join(ruta_base, f"{nombre}.csv")
-    with open(path, encoding='latin-1') as f:
-        lines = f.readlines()
-    total_line = next(line for line in lines if line.startswith("Total,"))
-    valores = total_line.strip().split(",")[6:14]  # 8 décadas
-    valores = [int(v.replace(".", "")) if v.replace(".", "").isdigit() else 0 for v in valores]
-    salida.append(valores)
+    path = Path(ruta_base) / f"{nombre}.csv"
+    df = pd.read_csv(path)
+    print(df)
+    for col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0).astype(int)
 
-decadas = ['1950', '1960', '1970', '1980', '1990', '2000', '2010', '2020']
-df = pd.DataFrame({'Década': decadas})
-for i, nombre in enumerate(nombres):
-    df[nombre.upper()] = salida[i]
+    # Sumar cada columna de década, ignorando la primera columna (región)
+    sumas = df.iloc[:, 1:].sum()
+    df_nombre = pd.DataFrame({
+        "Década": ["1970", "1980", "1990", "2000", "2010", "2020"],
+        nombre.upper(): sumas.values
+    })
 
-df.to_csv("../data/processed/frecuencia_espana.csv", index=False)
-print("Datos procesados para España guardados.")
+    df_final = pd.merge(df_final, df_nombre, on="Década")
+
+# Guardar resultado
+output_path = Path("../data/processed/frecuencia_espana.csv")
+df_final.to_csv(output_path, index=False)
+print(df_final)
+print("Resumen nacional por década guardado correctamente.")

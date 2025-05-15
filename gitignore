@@ -25,10 +25,7 @@ venv/
 
 # Notebook execution artifacts
 *.out
-*.pdf
 *.svg
-*.png
-*.jpg
 
 # Hidden files or outputs
 *.bak
@@ -39,3 +36,5 @@ venv/
 
 # Output directories
 outputs/
+
+*.numbers
