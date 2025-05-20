@@ -1,4 +1,4 @@
-# Candy Candy – Impacto cultural en las tendencias de nombres
+# Candy Candy: Impacto cultural en las tendencias de nombres
 
 Este proyecto explora si la emisión del anime *Candy Candy* en España durante la década de 1980 influyó en la disminución del uso del nombre “Susana”. Se comparan los patrones en España, donde se transmitió el anime, y en Uruguay, donde no se emitió. Mediante visualizaciones, procesamiento de datos y narrativa cultural, se explora cómo los medios pueden afectar decisiones personales como el nombre de una hija.
 
