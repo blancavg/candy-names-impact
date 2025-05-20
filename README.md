@@ -1,17 +1,17 @@
 [Versión en español](README.es.md)
 
-# 📊 Candy Candy – Cultural impact on name trends
+# Candy Candy – Cultural impact on name trends
 
 
 This project explores whether the broadcast of the anime *Candy Candy* in Spain during the 1980s influenced a decline in the popularity of the name “Susana.” The analysis compares this trend with Uruguay, a country where the anime was not aired. Through data exploration, visualization, and narrative framing, this repository documents how media may shape personal decisions like naming children.
 
-## 🔍 Key Questions
+## Key Questions
 
 - Did the popularity of *Candy Candy* coincide with a measurable shift in naming trends?
 - Is the decline in the name *Susana* statistically significant compared to other names from the show (e.g., Ana, Patricia)?
 - Are similar declines visible in countries without strong exposure to the show?
 
-## 🚀 Try it yourself
+## Try it yourself
 
 ### Requirements
 
@@ -37,7 +37,7 @@ or open the summary notebook
 [![View Notebook](https://img.shields.io/badge/View-Notebook-blue?logo=jupyter)](./Candy_Candy_EDA_Report.ipynb)
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 candy-names-impact/
@@ -52,7 +52,7 @@ candy-names-impact/
 └── README.md          # Project documentation
 ```
 
-## 📈 EDA Pipeline
+## Pipeline
 
 ```mermaid
 graph TD
@@ -63,7 +63,7 @@ graph TD
     E --> F[Markdown Tables<br/>for Docs & Blog]
     F --> G[Outputs:<br/>Blog Infographic & GitHub Repo]
 ```
-## 📊 Key Findings
+## Key Findings
 
 - In Spain, **Susana** experienced an abrupt decline in relative frequency after the 1970s.
 - In Uruguay, where *Candy Candy* did not air, the decline of **Susana** was minimal and consistent, with no disruption.
@@ -72,7 +72,7 @@ graph TD
 
 ---
 
-## 📚 References
+## References
 
 - [Wikipedia - Candy Candy](https://es.wikipedia.org/wiki/Candy_Candy)
 - [Candy Candy: Épico culebrón del anime – Hugo Zapata](https://www.hugozapata.com.ar/2013/05/candy-candy-epico-culebron-del-anime/)
@@ -88,11 +88,11 @@ graph TD
 Website: [blancavg.com](https://blancavg.com)  
 GitHub: [@blancavg](https://github.com/blancavg)
 
-## 🪪 License
+## License
 
 This project is open-sourced under the MIT License. Feel free to explore, adapt, and credit.
 
 ---
 
-💡 Want to replicate or build on this project?  
+Want to replicate or build on this project?  
 Fork it, explore the notebook, or remix it into your own cultural dataset analysis.

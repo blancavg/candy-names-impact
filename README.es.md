@@ -1,10 +1,10 @@
-# 📊 Candy Candy – Impacto cultural en las tendencias de nombres
+# Candy Candy – Impacto cultural en las tendencias de nombres
 
 Este proyecto explora si la emisión del anime *Candy Candy* en España durante la década de 1980 influyó en la disminución del uso del nombre “Susana”. Se comparan los patrones en España, donde se transmitió el anime, y en Uruguay, donde no se emitió. Mediante visualizaciones, procesamiento de datos y narrativa cultural, se explora cómo los medios pueden afectar decisiones personales como el nombre de una hija.
 
 ---
 
-## 🎯 ¿Qué queremos saber?
+## ¿Qué queremos saber?
 
 > ¿Puede la exposición a una historia de ficción alterar la percepción de un nombre propio?
 
@@ -12,7 +12,7 @@ La historia de Susana en *Candy Candy* marcó emocionalmente a muchas niñas. Es
 
 ---
 
-## 📦 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 candy-names-impact/
@@ -35,7 +35,7 @@ candy-names-impact/
 
 ---
 
-## 🔁 Pipeline EDA
+## Pipeline EDA
 
 ```mermaid
 graph TD
@@ -50,7 +50,7 @@ graph TD
 
 ---
 
-## 🚀 Cómo empezar
+## Cómo empezar
 
 Instala dependencias:
 
@@ -73,7 +73,7 @@ o revisa el Jupyter Notebook
 
 ---
 
-## 📊 Hallazgos clave
+## Hallazgos clave
 
 - En España, **Susana** muestra un descenso **abrupto** y sostenido.
 - En Uruguay, **Susana** presenta un descenso **leve y constante** desde una frecuencia baja.
@@ -82,7 +82,7 @@ o revisa el Jupyter Notebook
 
 ---
 
-## 📚 Fuentes consultadas
+## Fuentes consultadas
 
 - [Wikipedia - Candy Candy](https://es.wikipedia.org/wiki/Candy_Candy)
 - [Hugo Zapata – Candy Candy, culebrón épico del anime](https://www.hugozapata.com.ar/2013/05/candy-candy-epico-culebron-del-anime/)
@@ -92,7 +92,7 @@ o revisa el Jupyter Notebook
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Blanca Vargas**  
 *Creadora de contenido con datos, IA aplicada y educación*  
