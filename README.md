@@ -34,7 +34,7 @@ python scripts/06_generar_tablas_md.py
 ```
 or open the summary notebook
 
-[![View Notebook](https://img.shields.io/badge/View-Notebook-blue?logo=jupyter)](./Candy_Candy_EDA_Report.ipynb)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-blue?logo=jupyter)](./Candy_Candy_EDA_EN.ipynb)
 
 
 ## Repository Structure
