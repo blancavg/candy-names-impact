@@ -21,10 +21,15 @@ plt.savefig('../outputs/plots/frecuencia_absoluta_espana.png')
 plt.close()
 
 # Frecuencia relativa
-df_rel_plot = df_rel.melt(id_vars='Década', var_name='Nombre', value_name='Frecuencia relativa')
+df_rel_plot = df_rel.melt(id_vars='Década', var_name='Name', value_name='Relative frequency')
 plt.figure(figsize=(10,6))
-sns.lineplot(data=df_rel_plot, x='Década', y='Frecuencia relativa', hue='Nombre', palette=palette, marker="o")
-plt.title("Frecuencia relativa de nombres en España")
+sns.lineplot(data=df_rel_plot, x='Década', y='Relative frequency', hue='Name', palette=palette,
+             marker="o", markersize= 12, linewidth=2)
+plt.title("Susana's trend - Spain")
+plt.xlabel("Decade", fontsize=14)
+plt.ylabel("Relative frequency", fontsize=14)
+plt.tick_params(axis='both', labelsize=14)
+
 plt.grid(True)
 plt.tight_layout()
 plt.savefig('../outputs/plots/frecuencia_relativa_espana.png')
