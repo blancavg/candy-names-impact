@@ -52,6 +52,11 @@ candy-names-impact/
 └── README.md          # Project documentation
 ```
 
+## Data sources
+[Instituto Nacional de Estadística (INE), Spain](https://www.ine.es/tnombres/formGeneralresult.do?vista=3#_TabConsulta
+)
+[Instituto Nacional de Estadística (INE), Uruguay](https://public.tableau.com/app/profile/ine.uruguay/viz/Nombresmsfrecuentes/NombresmsfrecuentesderesidentesenUruguay1902-2017
+)
 ## Pipeline
 
 ```mermaid
